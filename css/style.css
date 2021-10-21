@@ -227,8 +227,8 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0 0 25px;
-  padding: 0;
+  margin: 0 0 0px;
+  padding: 30px;
   letter-spacing: 0;
   font-weight: 400;
 }
@@ -575,7 +575,7 @@ a.text-very-light-gray-hover:hover {
   font-weight: 500;
 }
 .font-weight-600 {
-  font-weight: 600;
+  font-weight: 700;
 }
 .font-weight-700 {
   font-weight: 700;
@@ -991,7 +991,7 @@ a.text-very-light-gray-hover:hover {
     Custom
 ====================================== */
 section {
-  padding: 130px 0;
+  padding: 30px 0;
   overflow: hidden;
 }
 section.big-section {
@@ -1386,7 +1386,7 @@ textarea.input-bg {
   position: absolute;
   height: 100%;
   width: 100%;
-  opacity: 0.5;
+  opacity: 0;
   top: 0;
   left: 0;
 }
@@ -2730,7 +2730,7 @@ textarea.input-bg {
   margin-bottom: 7.5%;
 }
 .margin-eight-bottom {
-  margin-bottom: 8%;
+  margin-bottom: ;
 }
 .margin-eight-half-bottom {
   margin-bottom: 8.5%;
@@ -2844,7 +2844,7 @@ textarea.input-bg {
   margin-bottom: 15px;
 }
 .margin-20px-bottom {
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 .margin-25px-bottom {
   margin-bottom: 25px;
@@ -8375,7 +8375,7 @@ nav.navbar.bootsnav li.dropdown .menu-back-div > ul {
   background: white;
 }
 nav.navbar.bootsnav li.dropdown .mega-menu-full > ul li.dropdown-header {
-  color: #fff;
+  color: rgb(0, 0, 0);
   display: inline-block;
   font-size: 11px;
   font-weight: 600;
@@ -8389,7 +8389,7 @@ nav.navbar.bootsnav li.dropdown .mega-menu-full > ul li.dropdown-header {
 nav.navbar.bootsnav li.dropdown .mega-menu-full > ul li a {
   text-align: left;
   font-size: 12px;
-  color: #9d9d9d;
+  color: #000000;
   padding: 3px 40px;
   text-transform: capitalize;
   margin: 0;
@@ -15384,4 +15384,12 @@ aside .latest-post li figure {
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   z-index: 9999;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 50%;
 }
